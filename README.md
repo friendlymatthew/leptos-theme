@@ -1,6 +1,8 @@
 ## 🌗 *leptos-theme*
 `leptos-theme` effortlessly toggles between light and dark modes in your leptos application.
 
+<img width="629" alt="Screen Shot 2024-01-05 at 3 58 18 PM" src="https://github.com/friendlymatthew/leptos-theme/assets/38759997/a9393259-1f3e-4570-8b3e-f9e1d95ff2e6">
+
 ## Overview
 You can set up dark mode with two lines:
 
@@ -69,3 +71,4 @@ Omg that would be amazing.
 ## Todo!
 - [ ] custom theming
 - [ ] force pages to specific themes
+
