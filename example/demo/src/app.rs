@@ -89,7 +89,7 @@ fn HomePage() -> impl IntoView {
                         <pre>
                             <span>
                                 "use "
-                                <a href="" class=LINK_CSS target="_blank" rel="noreferrer">
+                                <a href="https://crates.io/crates/leptos_theme/0.1.0" class=LINK_CSS target="_blank" rel="noreferrer">
                                     <span class=CRATE_CSS>"leptos_theme"</span>
                                 </a>"::theme::"<span class=THEME_CSS>"ThemeProvider"</span>";"
                             </span>
