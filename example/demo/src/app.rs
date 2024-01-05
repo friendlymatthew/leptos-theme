@@ -2,8 +2,8 @@ use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
 
-use leptos_theme::theme::{ThemeProvider, Theme};
-
+use leptos_theme::theme::{ThemeProvider, use_theme};
+use leptos_theme::types::{Theme};
 
 
 #[component]
@@ -18,7 +18,6 @@ pub fn App() -> impl IntoView {
             <Router>
                 <Routes>
                     <Route path="/" view=HomePage/>
-
                     <Route path=":else" view=ErrorPage/>
                 </Routes>
             </Router>
@@ -36,14 +35,14 @@ fn HomePage() -> impl IntoView {
 
     let footer_links: [(&'static str, String); 2] = [
         ("Contribute", format!("{}", REPO_LINK)),
-        ("Leave an issue", format!("{}/issues", REPO_LINK))
+        ("Leave an issue", format!("{}/issues/new", REPO_LINK))
     ];
 
 
     let theme_buttons: [Theme; 3] = [Theme::Light, Theme::Dark, Theme::System];
 
-    let theme_signal = use_context::<RwSignal<Theme>>()
-        .expect("there should be a theme state");
+    // 2. retrieve the theme_signal global state
+    let theme_signal = use_theme();
 
     view! {
         <main class="font-robotomono h-screen flex flex-col items-center justify-around bg-[#fdfdfd] dark:bg-[#0a0a0a] dark:text-white w-full">

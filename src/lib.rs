@@ -1,3 +1,5 @@
 pub mod theme;
-//pub use theme::ThemeProvider;
+pub mod types;
 
+pub use theme::{use_theme, ThemeProvider};
+pub use types::Theme;
