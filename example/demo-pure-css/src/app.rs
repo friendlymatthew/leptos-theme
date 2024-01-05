@@ -5,7 +5,6 @@ use leptos_router::*;
 use leptos_theme::theme::{ThemeProvider, use_theme};
 use leptos_theme::types::{Theme};
 
-
 #[component]
 pub fn App() -> impl IntoView {
     provide_meta_context();

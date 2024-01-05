@@ -3,6 +3,12 @@ name = "leptos_theme"
 version = "0.1.0"
 edition = "2021"
 exclude = ["example/"]
+description="A theme abstraction for leptos applications."
+license="MIT"
+repository="https://github.com/friendlymatthew/leptos-theme"
+authors = ["Matthew Kim"]
+keywords=["leptos", "themes", "theme-switcher"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
