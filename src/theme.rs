@@ -15,7 +15,6 @@ const STORAGE_KEY: &'static str = "theme";
 fn update_css_for_theme(theme: Theme, prefers_dark: bool, use_data_attribute: bool) {
     let document = web_sys::window().unwrap().document().unwrap();
     let html_element = document.document_element().unwrap();
-    let body_element = document.body().unwrap();
 
     if use_data_attribute {
         match theme {

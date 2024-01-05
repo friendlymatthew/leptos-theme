@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo-pure-css</title>
+    <link data-trunk rel="rust" data-wasm-opt="z" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        html, body {
+            font-family: "Roboto Mono",monospace;
+            color: #000;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0 3em;
+            background-color: #fdfdfd;
+        }
+
+        a {
+            color: #115e59;
+        }
+
+        button {
+            color: #0a0a0a;
+            background-color: inherit;
+            cursor: pointer;
+            font-family: "Roboto Mono", monospace;
+        }
+
+        *[data-theme="dark"], html[data-theme='dark'] main, body[data-theme='dark'] main {
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+
+        html[data-theme="dark"] a, body[data-theme="dark"] a {
+            color: #5eead4;
+        }
+
+        html[data-theme="dark"] button, body[data-theme="dark"] button {
+            color: #fdfdfd;
+            background-color: inherit;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+</body>
+
+</html>
