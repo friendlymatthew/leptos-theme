@@ -8,7 +8,7 @@ Here's a live version: https://leptos-theme-data-attribute.vercel.app/
 ## Quickstart
 1. To set up `leptos-theme`, install the dependency
 ```shell
-cargo install leptos-theme
+cargo add leptos-theme
 ```
 
 2. Wrap your project with `<ThemeProvider />` and specify `use_data_attribute` as `true`.

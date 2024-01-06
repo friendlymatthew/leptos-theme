@@ -10,7 +10,7 @@ Here's a live version: https://leptos-theme.vercel.app/
 ## Quickstart
 1. To set up `leptos-theme`, install the dependency
 ```shell
-cargo install leptos-theme
+cargo add leptos-theme
 ```
 
 2. Wrap your project with `<ThemeProvider />`:
