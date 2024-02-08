@@ -1,6 +1,6 @@
 [package]
 name = "leptos_theme"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 exclude = ["example/"]
 description="A theme abstraction for leptos applications."
