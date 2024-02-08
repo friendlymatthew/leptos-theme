@@ -1,7 +1,8 @@
 use crate::types::Theme;
 use leptos::*;
 use leptos::logging::log;
-use leptos_use::storage::{use_local_storage, JsonCodec};
+use leptos_use::storage::use_local_storage;
+use leptos_use::utils::JsonCodec;
 use leptos_use::{use_media_query, use_preferred_dark};
 
 /// Define a constant for the local storage key used to store the theme setting.
